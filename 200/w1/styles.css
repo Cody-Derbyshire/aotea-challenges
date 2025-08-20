@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 2rem;
+}
+
+.container {
+  height: calc(100vh - 4rem);
+  width: calc(100vw - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+button {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 0;
+  border: solid 0.1rem #525252;
+}
+
+button:hover {
+  cursor: pointer;
+}
