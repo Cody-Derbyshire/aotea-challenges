@@ -18,3 +18,30 @@ body {
   align-items: center;
   gap: 1rem;
 }
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 99rem;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+div.card > img {
+  width: 200%;
+  image-rendering: pixelated;
+  filter: drop-shadow(-5px 5px 1px);
+}
