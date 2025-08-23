@@ -9,12 +9,11 @@ body {
   padding: 2rem;
 }
 
+h2 {
+  margin: 1rem 0rem;
+}
+
 .container {
   height: calc(100vh - 4rem);
   width: calc(100vw - 4rem);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
 }

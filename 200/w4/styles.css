@@ -18,3 +18,7 @@ body {
   align-items: center;
   gap: 1rem;
 }
+
+.flower {
+  width: 100%;
+}

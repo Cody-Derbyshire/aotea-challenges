@@ -18,3 +18,14 @@ body {
   align-items: center;
   gap: 1rem;
 }
+
+button {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 0;
+  border: solid 0.1rem #525252;
+}
+
+button:hover {
+  cursor: pointer;
+}
