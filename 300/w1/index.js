@@ -1,6 +1,6 @@
 let min = 1;
 let max = 151;
-let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+let randomNum = ;
 
 const API_URL = `https://pokeapi.co/api/v2/pokemon/${randomNum}`;
 const root = document.getElementById('root');
