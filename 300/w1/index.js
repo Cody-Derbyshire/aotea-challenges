@@ -28,7 +28,7 @@ form.addEventListener('submit', (event) => {
         div.appendChild(image);
         root.appendChild(div);
 
-        btn.textContent = 'reset!';
+        btn.textContent = 'reset';
       });
   } else {
     btn.textContent = 'randomise!';
