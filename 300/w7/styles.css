@@ -1,3 +1,7 @@
+:root {
+  --cube-side: 100px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,4 +21,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.cube {
+  height: var(--cube-side);
+  width: var(--cube-side);
+  background-color: red;
 }
