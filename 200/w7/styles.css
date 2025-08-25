@@ -11,10 +11,15 @@ body {
 
 .container {
   height: calc(100vh - 4rem);
-  width: calc(100vw - 4rem);
+  max-width: calc(100vw - 4rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.gallery {
+  max-width: calc(100vw - 4rem);
+  display: flex;
 }
